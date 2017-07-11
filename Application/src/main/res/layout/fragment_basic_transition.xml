@@ -69,12 +69,14 @@
 
     </RadioGroup>
 
+    <!--这是我们transition的跟布局-->
     <FrameLayout
         android:id="@+id/scene_root"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
 
+        <!--我们的start场景-->
         <include layout="@layout/scene1"/>
 
     </FrameLayout>
